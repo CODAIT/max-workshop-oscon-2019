@@ -36,7 +36,7 @@ You can run a model-serving microservice locally using Docker or in the cloud us
 
 
     * `/model/labels`: Return the list of labels that can be predicted by the model. 
-    * `/model/metadata`: Returns information about the modelserving microservice.
+    * `/model/metadata`: Returns information about the model-serving microservice.
     * `/model/predict`: Applies the deep learning functionality on the provided input data.
 
    > Each model-serving microservice exposes the `/model/metadata` and `/model/predict` endpoints. Some model-serving microservices expose additional model-specific endpoints.
