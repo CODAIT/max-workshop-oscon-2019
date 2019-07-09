@@ -30,7 +30,11 @@ You can run a model-serving microservice locally using Docker or in the cloud us
    
  1. Open http://127.0.0.1:5000/ in your web browser to display the microservice's [OpenAPI Specification (OAS)](https://www.openapis.org/about). 
  
- 1. Expand the *Model* section to review the model-serving endpoints for this model:
+ 1. Expand the *model* section to review the model-serving endpoints for this model:
+
+    ![OpenAPI specification](img/open_api_spec.png)
+
+
     * `/model/labels`: Return the list of labels that can be predicted by the model. 
     * `/model/metadata`: Returns information about the modelserving microservice.
     * `/model/predict`: Applies the deep learning functionality on the provided input data.
@@ -45,6 +49,8 @@ You can easily explore the REST endpoints using any HTTP client, such as your we
 
 1. In your web browser expand the **GET `/model/labels`** section.
 1. Click **Try it out** and **Execute**.
+
+   ![Try it out](img/try_it_out.png)
 1. Review the JSON response. It identifies the types of objects that this service can detect in an image:
    ```
     {
@@ -70,6 +76,8 @@ You can easily explore the REST endpoints using any HTTP client, such as your we
 1. In your web browser expand the **POST `/model/predict`** section.
 1. Click **Try it out**.
 1. Download a JPG or PNG picture, such as [this one](https://www.pexels.com/photo/wood-bridge-cute-sitting-39369/) and select it as input.
+   ![Try model prediction](img/try_model_predict.png)
+
 1. Review, but do not change, the _threshold_ parameter.
 1. Click **Execute**.
 1. Review the JSON response, which lists the detected objects (`label`), the confidence (`probability` - "higher is better"), and normalized object coordinates within the image (`detection_box`). In this example, the model is very certain that the image contains a  teddy bear (99.1% probability) and a person (98.9% probability).
@@ -130,6 +138,8 @@ You can easily explore the REST endpoints using any HTTP client, such as your we
 You can explore and test a model-serving microservice without having to download and run a Docker image. 
 
 1. On the [Object Detector model page](https://developer.ibm.com/exchanges/models/all/max-object-detector/) click **Try the API** to access a hosted evaluation instance of the selected model-serving microservice.
+
+   ![Try the API](img/try_the_api.png)
 
 ## Next steps
 
