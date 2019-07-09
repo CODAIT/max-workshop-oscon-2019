@@ -120,11 +120,16 @@ You can easily explore the REST endpoints using any HTTP client, such as your we
     }   
    ```
    
-1. If you have `curl` installed run the following command in a terminal window, replacing `adorable-baby-bear-39369.jpg` with your image name. (You can also try this using your favorite HTTP client.)
+1. If you have `curl` installed run the following command in a terminal window, replacing `adorable-baby-bear-39369.jpg` with your image name. (You can also try this using your favorite HTTP client.) The response should be identical to the response that was returned earlier.
    ```
    $ curl -F "image=@adorable-baby-bear-39369.jpg" -XPOST http://127.0.0.1:5000/model/predict?threshold=0.3
    ```
 
+#### Explore the model-serving microservice endpoints using hosted evaluation instances
+
+You can explore and test a model-serving microservice without having to download and run a Docker image. 
+
+1. On the [Object Detector model page](https://developer.ibm.com/exchanges/models/all/max-object-detector/) click **Try the API** to access a hosted evaluation instance of the selected model-serving microservice.
 
 ## Next steps
 
