@@ -186,8 +186,8 @@ The `node-red-contrib-model-asset-exchange` module includes a couple getting sta
 
 ## Next steps
 
-[Return to the workshop home page](/).
+[Return to the workshop home page](../).
 
 ## Resources
 
-  - [Tutotrial: Leverage deep learning in your Node-RED flows](https://developer.ibm.com/tutorials/learn-how-to-leverage-deep-learning-in-your-node-red-flows/) 
+  - [Tutorial: Leverage deep learning in your Node-RED flows](https://developer.ibm.com/tutorials/learn-how-to-leverage-deep-learning-in-your-node-red-flows/) 
