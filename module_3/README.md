@@ -6,7 +6,7 @@ You can utilize the model-serving microservice in your applications to enrich or
 
 You can complete this module using a sandbox Docker image or an existing local installation of Node-RED (and Node.js):
 
-- [Use Node-RED in a sandbox](#Use-Node-RED-in-a-sandbox-(Docker-image))
+- [Use Node-RED in a sandbox](#use-node-red-in-a-sandbox-docker-image)
 - [Use a local Node-RED installation](#use-a-local-Node-RED-installation)
 
 ---
