@@ -12,7 +12,7 @@ You can complete this module using a sandbox Docker image or an existing local i
 ---
 ### Use Node-RED in a sandbox (Docker image)
 
-If you don't have Node-RED installed on your machine you can use the [`codait/max-node-red-demo`]() sandbox image.
+If you don't have Node-RED installed on your machine you can use the [`codait/max-node-red-demo`](https://github.com/CODAIT/max-node-red-docker-image) sandbox image.
 
 1. Launch the Docker image, which has all prerequisites pre-installed.
 
