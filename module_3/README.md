@@ -186,7 +186,7 @@ The `node-red-contrib-model-asset-exchange` module includes a couple getting sta
 
 ## Next steps
 
-[Return to the workshop home page](../).
+[Return to the workshop home page](https://github.com/CODAIT/max-workshop-oscon-2019).
 
 ## Resources
 
