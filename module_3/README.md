@@ -34,7 +34,7 @@ If you don't have Node-RED installed on your machine you can use the [`codait/ma
 ---
 ### Use a local Node-RED installation
 
-This module has been tested using Node.js version 10.13 and Node-RED version 0.19.5.
+This module has been tested using Node.js version 10.13 and Node-RED version 0.20.5.
 
 1. Start your existing Node-RED.
 
