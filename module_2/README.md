@@ -34,6 +34,8 @@ To complete this section, [Node.js](https://nodejs.org/en/) must be installed on
 
     1. Locate `TODO R1` and review the prediction request payload. The model that you are using requires a PNG/JPG-encoded image file as input and accepts a threshold as optional input. The threshold acts as a filter, removing detected objects from the result set that the model is less certain about. In this sample application, we are overriding the default (0.7) for illustrative purposes with a lower value.
     1. Locate `TODO T1` and replace the `**TODO**` placeholder with your microservice’s prediction endpoint `/model/predict`.
+       > Use `http://max-object-detector.max.us-south.containers.appdomain.cloud/model/predict` if you are not running the model-serving microservice locally. 
+       
        > Remember you can review the endpoint specification by opening the microservice URL (for example, http://127.0.0.1:5000/). 
     1. Locate `TODO T2` and replace the `**TODO**` placeholder with your microservice’s prediction request method `POST`.
 
@@ -133,6 +135,8 @@ Notes:
 
     1. Locate `TODO R1` and review the prediction request payload. The model that you are using requires a PNG/JPG-encoded image file as input and accepts a threshold as optional input. The threshold acts as a filter, removing detected objects from the result set that the model is less certain about. In this sample application, we are overriding the default (0.7) for illustrative purposes with a lower value.
     1. Locate `TODO T1` and replace the `**TODO**` placeholder with your microservice’s prediction endpoint `/model/predict`.
+    > Use `http://max-object-detector.max.us-south.containers.appdomain.cloud/model/predict` if you are not running the model-serving microservice locally.
+    
     1. Save your changes.
 
     > Remember you can review the endpoint specification by opening the microservice URL (for example, http://127.0.0.1:5000/). 
