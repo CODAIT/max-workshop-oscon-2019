@@ -28,7 +28,9 @@ You can run a model-serving microservice locally using Docker or in the cloud us
    
    > If the command fails with `Error response from daemon: driver failed programming external connectivity on endpoint` restart Docker.
    
- 1. Open http://127.0.0.1:5000/ in your web browser to display the microservice's [OpenAPI Specification (OAS)](https://www.openapis.org/about). 
+   > Note: If you have poor network connectivity you can use the following hosted evaluation instance: `http://max-object-detector.max.us-south.containers.appdomain.cloud/`
+   
+ 1. Open http://127.0.0.1:5000/ (or http://max-object-detector.max.us-south.containers.appdomain.cloud/) in your web browser to display the microservice's [OpenAPI Specification (OAS)](https://www.openapis.org/about). 
  
  1. Expand the *model* section to review the model-serving endpoints for this model:
 
