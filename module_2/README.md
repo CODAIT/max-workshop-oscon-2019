@@ -7,7 +7,7 @@ You can utilize the model-serving microservice using the standardized REST API. 
 
 
 Follow the instructions for your programming language of choice:
-- [Node.js](#consuming-using-node.js)
+- [Node.js](#consuming-using-nodejs)
 - [Python](#consuming-using-python)
 
 ---
@@ -201,7 +201,7 @@ Notes:
 
 ## Next steps
 
-[Continue to module 3](/module_3/) or [return to the workshop home page](/).
+[Continue to module 3](/module_3/) or [return to the workshop home page](https://github.com/CODAIT/max-workshop-oscon-2019).
 
 ## Resources
 

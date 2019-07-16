@@ -143,7 +143,7 @@ You can explore and test a model-serving microservice without having to download
 
 ## Next steps
 
-[Continue to module 2](/module_2/) or [return to the workshop home page](/).
+[Continue to module 2](/module_2/) or [return to the workshop home page](https://github.com/CODAIT/max-workshop-oscon-2019).
 
 ## Resources
 
